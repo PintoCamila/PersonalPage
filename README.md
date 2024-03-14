@@ -1,7 +1,10 @@
 # Personal Page / Portfolio Page
 
----Ongoing Project---
+--- Ongoing Project ---
+Building a personal page to work as a Portfolio using ReactJS.
 
+
+-----------------------------------------------------------------------------------------------------------------------
 
 ## Available Scripts
 
