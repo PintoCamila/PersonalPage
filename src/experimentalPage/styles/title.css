@@ -1,0 +1,10 @@
+#welcomeTextContainer{
+    display: inline;
+    width: 200px;
+    text-align: center;
+}
+
+#name{
+    display: block;
+    align-self: center;
+}

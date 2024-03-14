@@ -1,0 +1,9 @@
+#background{
+    display: flex;
+    position: absolute;
+    
+    background-color:blueviolet;
+    height: 100%;
+    width: 100%;
+    
+}

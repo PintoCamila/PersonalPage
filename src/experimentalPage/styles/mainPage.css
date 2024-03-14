@@ -1,0 +1,48 @@
+#placeholderCard{
+    display: flex;
+    
+    padding: 2rem;
+    align-items: self-start;
+
+    justify-content: center;
+
+    height: 500px;
+
+    z-index: 1;
+}
+
+#mainImage{
+    border-width: 10px;
+    border-color: black;
+
+    z-index: 0;
+}
+
+
+  #mainImageContainer {
+    display: flex;
+    
+    border-width: 10px;
+    border-color: black;
+
+  }
+
+#imageAndText{
+        border-width: 10px;
+        border-color: black;
+    
+        display: flex;
+        
+        border-width: 10px;
+        border-color: black;
+
+        margin-top: -300px;
+    
+}
+
+#background{
+    background-size: cover;
+    background-position: center;
+
+    z-index: -1;
+}

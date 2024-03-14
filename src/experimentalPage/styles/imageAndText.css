@@ -1,0 +1,15 @@
+#spanBlock{
+    display: flex;
+    border: 0.2rem;
+    border-color: black;
+    border-style:groove;
+
+    padding: 0.5rem;
+}
+
+#bodyText{
+    display: flex;
+    padding: 1rem;
+    width: 30rem;
+    align-items: center;
+}
