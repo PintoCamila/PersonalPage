@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "./styles/background.css";
+import "D:/1/Data/Faculdade/Academia de Codigo/AFTER/PersonalPage/PersonalPage/src/experimentalPage/styles/background.css";
 
 function Background() {
     return ( 

@@ -1,4 +1,5 @@
 #welcomeTextContainer{
+    display: flex;
     display: inline;
     width: 200px;
     text-align: center;

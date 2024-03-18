@@ -1,3 +1,7 @@
+#page {
+    margin-top: 1rem;
+}
+
 #placeholderCard{
     display: flex;
     
@@ -35,8 +39,6 @@
         
         border-width: 10px;
         border-color: black;
-
-        margin-top: -300px;
     
 }
 

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import MainImage from './mainImage';
-import BodyText from './components/bodyText';
+import BodyText from './bodyText';
 
-import "./styles/imageAndText.css"
+import "D:/1/Data/Faculdade/Academia de Codigo/AFTER/PersonalPage/PersonalPage/src/experimentalPage/styles/imageAndText.css"
 
 
 function ImageAndText () {

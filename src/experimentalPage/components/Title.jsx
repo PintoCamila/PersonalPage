@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import "./styles/title.css";
+import "D:/1/Data/Faculdade/Academia de Codigo/AFTER/PersonalPage/PersonalPage/src/experimentalPage/styles/title.css";
 
 
 class Title extends Component {

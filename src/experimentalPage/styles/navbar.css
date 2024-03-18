@@ -1,0 +1,116 @@
+.active {
+    background-color:rgb(231, 174, 211);
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color:rgb(104, 44, 84);
+    
+    margin-top: 0;
+
+    border-radius: 3%;
+
+    position: sticky;
+    top:0;
+}
+
+nav #home {
+    font-size: 1.5rem;
+    margin: 1rem 2rem 1rem 4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin-right: 1rem;
+    border-radius: 0.5rem;
+}
+
+nav ul li a:not(.active):hover {
+    background-color:rgb(141, 102, 131);
+}
+
+nav #menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 0.5rem;
+    right:0.5rem;
+    justify-content: space-between;
+    width: 2.25rem;
+    height: 2rem;
+    padding: 0.5rem 4rem;
+    border-radius: 0.5rem;
+
+    margin-top: -0.2rem;
+}
+
+nav #menu span {
+    height: 0.4rem;
+    width: 100%;
+    background-color: white;
+    border-radius: 0.2rem;
+}
+
+nav #menu:hover {
+    background-color:rgb(141, 102, 131);
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    nav #menu {
+        display: flex;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: start;
+        justify-content:space-between;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: auto;
+        margin-bottom: 0.25rem;
+
+        align-self: center;
+        
+        margin-top: -0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    nav ul.open {
+        display: flex;
+    }
+
+    nav ul li {
+        display: flex;
+        align-self: center;
+        justify-self: center;
+
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+
+        margin: 0.2rem;
+    }
+
+  
+}
