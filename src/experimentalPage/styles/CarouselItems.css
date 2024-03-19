@@ -1,0 +1,27 @@
+#carouselItems {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height:490px;
+    background-color: white; 
+    width: 100%; 
+}
+
+#carouselText {
+    margin-top: -5rem;
+    color: rgb(104, 44, 84);
+    font-weight: bolder;
+    font-size:larger;
+
+}
+
+#carouselSecondText{
+    color: rgb(231, 174, 211);
+    font-weight: bolder;
+    font-size:larger;
+
+}
+
+#carouselImage {
+    height: 20rem;
+}
